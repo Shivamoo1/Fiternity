@@ -9,9 +9,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class mycontroller {
-    @GetMapping("/index")
+    
+    @GetMapping("/")
     String go()
     {
         return "index.html";
+    }
+    
+    @GetMapping("/signin")
+    String go2()
+    {
+        return "signin.html";
     }
 }
