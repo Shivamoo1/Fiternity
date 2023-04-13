@@ -12,6 +12,6 @@ public class mycontroller {
     @GetMapping("/index")
     String go()
     {
-        return "index.html";
+        return "signin.html";
     }
 }
